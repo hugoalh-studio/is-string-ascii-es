@@ -1,14 +1,18 @@
 # yaml-language-server: $schema=https://citation-file-format.github.io/1.2.0/schema.json
 cff-version: "1.2.0"
-title: "Is String ASCII (TypeScript)"
+title: "Is String ASCII (ES)"
 message: "If you use this software, please cite it using the metadata from this file."
 type: "software"
 authors:
   - name: "hugoalh Studio"
-repository-code: "https://github.com/hugoalh-studio/is-string-ascii-ts"
+repository-code: "https://github.com/hugoalh-studio/is-string-ascii-es"
 keywords:
   - "ascii"
+  - "es"
   - "is"
+  - "javascript"
+  - "js"
+  - "modulejs"
   - "string"
   - "ts"
   - "typescript"
