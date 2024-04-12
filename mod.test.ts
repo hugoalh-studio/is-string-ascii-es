@@ -1,4 +1,4 @@
-import { assertEquals } from "TEST/assert_equals.ts";
+import { assertEquals } from "STD/assert/assert_equals.ts";
 import { isStringASCII } from "./mod.ts";
 Deno.test("False 1", { permissions: "none" }, () => {
 	assertEquals(isStringASCII("日本語"), false);
