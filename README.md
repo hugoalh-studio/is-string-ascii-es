@@ -80,6 +80,12 @@ An ES (JavaScript & TypeScript) module to determine whether the string is ASCII.
 - ```ts
   function isStringASCII(item: string): boolean;
   ```
+- ```ts
+  function isStringASCIIControl(item: string): boolean;
+  ```
+- ```ts
+  function isStringASCIIPrintable(item: string): boolean;
+  ```
 
 > **ℹ️ Note**
 >
