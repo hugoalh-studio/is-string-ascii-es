@@ -3,6 +3,9 @@
 	"name": "@hugoalh/is-string-ascii",
 	"version": "1.0.1",
 	"exports": {
+		"./all": "./all.ts",
+		"./control": "./control.ts",
+		"./printable": "./printable.ts",
 		".": "./mod.ts"
 	},
 	"imports": { },

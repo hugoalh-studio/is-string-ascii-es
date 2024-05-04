@@ -1,13 +1,25 @@
-import { isStringASCII } from "./mod.ts";
-Deno.bench("False 1", { permissions: "none" }, () => {
-	isStringASCII("日本語");
+import { isStringASCII, isStringASCIIControl, isStringASCIIPrintable } from "./mod.ts";
+Deno.bench("1", { permissions: "none" }, () => {
+	const sample = "日本語";
+	isStringASCII(sample);
+	isStringASCIIControl(sample);
+	isStringASCIIPrintable(sample);
 });
-Deno.bench("False 2", { permissions: "none" }, () => {
-	isStringASCII("👀");
+Deno.bench("2", { permissions: "none" }, () => {
+	const sample = "👀";
+	isStringASCII(sample);
+	isStringASCIIControl(sample);
+	isStringASCIIPrintable(sample);
 });
-Deno.bench("True 1", { permissions: "none" }, () => {
-	isStringASCII("Hello, world!");
+Deno.bench("3", { permissions: "none" }, () => {
+	const sample = "Hello, world!";
+	isStringASCII(sample);
+	isStringASCIIControl(sample);
+	isStringASCIIPrintable(sample);
 });
-Deno.bench("True 2", { permissions: "none" }, () => {
-	isStringASCII("");
+Deno.bench("4", { permissions: "none" }, () => {
+	const sample = "";
+	isStringASCII(sample);
+	isStringASCIIControl(sample);
+	isStringASCIIPrintable(sample);
 });

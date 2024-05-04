@@ -1,14 +1,26 @@
-import { assertEquals } from "STD/assert/assert_equals.ts";
-import { isStringASCII } from "./mod.ts";
-Deno.test("False 1", { permissions: "none" }, () => {
-	assertEquals(isStringASCII("日本語"), false);
+import { assertEquals } from "STD/assert/assert-equals";
+import { isStringASCII, isStringASCIIControl, isStringASCIIPrintable } from "./mod.ts";
+Deno.test("1", { permissions: "none" }, () => {
+	const sample = "日本語";
+	assertEquals(isStringASCII(sample), false);
+	assertEquals(isStringASCIIControl(sample), false);
+	assertEquals(isStringASCIIPrintable(sample), false);
 });
-Deno.test("False 2", { permissions: "none" }, () => {
-	assertEquals(isStringASCII("👀"), false);
+Deno.test("2", { permissions: "none" }, () => {
+	const sample = "👀";
+	assertEquals(isStringASCII(sample), false);
+	assertEquals(isStringASCIIControl(sample), false);
+	assertEquals(isStringASCIIPrintable(sample), false);
 });
-Deno.test("True 1", { permissions: "none" }, () => {
-	assertEquals(isStringASCII("Hello, world!"), true);
+Deno.test("3", { permissions: "none" }, () => {
+	const sample = "Hello, world!";
+	assertEquals(isStringASCII(sample), true);
+	assertEquals(isStringASCIIControl(sample), false);
+	assertEquals(isStringASCIIPrintable(sample), true);
 });
-Deno.test("True 2", { permissions: "none" }, () => {
-	assertEquals(isStringASCII(""), true);
+Deno.test("4", { permissions: "none" }, () => {
+	const sample = "";
+	assertEquals(isStringASCII(sample), true);
+	assertEquals(isStringASCIIControl(sample), true);
+	assertEquals(isStringASCIIPrintable(sample), true);
 });
