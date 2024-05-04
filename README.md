@@ -75,7 +75,7 @@ An ES (JavaScript & TypeScript) module to determine whether the string is ASCII.
 
 *This module does not require any permission.*
 
-## 🧩 API
+## 🧩 APIs
 
 - ```ts
   function isStringASCII(item: string): boolean;
@@ -94,7 +94,7 @@ An ES (JavaScript & TypeScript) module to determine whether the string is ASCII.
 > - [Deno CLI `deno doc`](https://deno.land/manual/tools/documentation_generator)
 > - [JSR](https://jsr.io/@hugoalh/is-string-ascii)
 
-## ✍️ Example
+## ✍️ Examples
 
 - ```ts
   isStringASCII("日本語");
