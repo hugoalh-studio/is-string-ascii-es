@@ -25,28 +25,14 @@ An ES (JavaScript & TypeScript) module to determine whether the string is ASCII.
 
 ### #️⃣ Registries Identifier
 
-<table><tbody align="left">
-<tr>
-<th>JSR</th>
-<td width="100%">
-
-```
-@hugoalh/is-string-ascii
-```
-
-</td>
-</tr>
-<tr>
-<th>NPM</th>
-<td width="100%">
-
-```
-@hugoalh/is-string-ascii
-```
-
-</td>
-</tr>
-</tbody></table>
+- **JSR:**
+  ```
+  @hugoalh/is-string-ascii
+  ```
+- **NPM:**
+  ```
+  @hugoalh/is-string-ascii
+  ```
 
 > **ℹ️ Note**
 >
@@ -55,7 +41,7 @@ An ES (JavaScript & TypeScript) module to determine whether the string is ASCII.
 
 ### #️⃣ Remote Import Paths
 
-- Via GitHub Raw (Require Tag)
+- **GitHub Raw:** (Require Tag)
   ```
   https://raw.githubusercontent.com/hugoalh-studio/is-string-ascii-es/${Tag}/mod.ts
   ```
