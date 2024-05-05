@@ -1,6 +1,6 @@
 {
 	"name": "@hugoalh/is-string-ascii",
-	"version": "1.0.1",
+	"version": "1.1.0",
 	"description": "A module to determine whether the string is ASCII.",
 	"keywords": [
 		"ascii",
