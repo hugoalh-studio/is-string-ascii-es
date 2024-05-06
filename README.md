@@ -21,7 +21,7 @@ An ES (JavaScript & TypeScript) module to determine whether the string is ASCII.
 
 > **ℹ️ Note**
 >
-> It is possible to use this module in other ways which not listed in here, however it is not officially supported.
+> It is possible to use this module in other methods/ways which not listed in here, however it is not officially supported.
 
 ### #️⃣ Registries Identifier
 
