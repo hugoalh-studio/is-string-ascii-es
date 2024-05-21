@@ -3,7 +3,7 @@
 [**⚖️** MIT](./LICENSE.md)
 
 [![GitHub: hugoalh-studio/is-string-ascii-es](https://img.shields.io/github/v/release/hugoalh-studio/is-string-ascii-es?label=hugoalh-studio/is-string-ascii-es&labelColor=181717&logo=github&logoColor=ffffff&sort=semver&style=flat "GitHub: hugoalh-studio/is-string-ascii-es")](https://github.com/hugoalh-studio/is-string-ascii-es)
-[![JSR: @hugoalh/is-string-ascii](https://img.shields.io/jsr/v/@hugoalh/is-string-ascii?label=JSR%20@hugoalh/is-string-ascii&labelColor=F7DF1E&logoColor=000000&style=flat "JSR: @hugoalh/is-string-ascii")](https://jsr.io/@hugoalh/is-string-ascii)
+[![JSR: @hugoalh/is-string-ascii](https://img.shields.io/jsr/v/@hugoalh/is-string-ascii?label=@hugoalh/is-string-ascii&labelColor=F7DF1E&logo=jsr&logoColor=000000&style=flat "JSR: @hugoalh/is-string-ascii")](https://jsr.io/@hugoalh/is-string-ascii)
 [![NPM: @hugoalh/is-string-ascii](https://img.shields.io/npm/v/@hugoalh/is-string-ascii?label=@hugoalh/is-string-ascii&labelColor=CB3837&logo=npm&logoColor=ffffff&style=flat "NPM: @hugoalh/is-string-ascii")](https://www.npmjs.com/package/@hugoalh/is-string-ascii)
 
 An ES (JavaScript & TypeScript) module to determine whether the string is ASCII.
