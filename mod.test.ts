@@ -1,4 +1,4 @@
-import { assertEquals } from "STD/assert/assert-equals";
+import { assertEquals } from "STD/assert/equals";
 import { isStringASCII, isStringASCIIControl, isStringASCIIPrintable } from "./mod.ts";
 const sample1 = "日本語";
 const sample2 = "👀";
